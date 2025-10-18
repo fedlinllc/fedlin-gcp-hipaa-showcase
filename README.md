@@ -1,3 +1,5 @@
+[![Request Info](https://img.shields.io/badge/Request%20Info-Open%20an%20Issue-blue)](https://github.com/fedlinllc/fedlin-gw-hipaa-showcase/issues/new?template=request_info.md)
+
 # Google Workspace HIPAA Baseline — CI/CD Managed (Fedlin)
 
 **What you get**
