@@ -1,0 +1,22 @@
+# Google Workspace HIPAA Baseline — CI/CD Managed (Fedlin)
+
+**What you get**
+- **Audit-ready change control**: All security policy changes flow through Pull Requests with approvals, logs, and artifacts.
+- **Stronger defaults (no license upgrades required for baseline):**
+  - Drive: org-only links for PHI areas; block public links by default
+  - Gmail: enforce TLS where supported; disable POP/IMAP/basic auth; block auto-forward from PHI OUs
+- **Fast rollback**: Versioned Terraform with short-lived OIDC credentials.
+- **Optional add-ons (Enterprise editions)**: Baseline DLP for Drive/Gmail (content inspection/quarantine), partner allow-lists, KPI reporting.
+
+**Who it’s for**
+Solo & small practices, group practices, school-based therapy providers, and digital health teams on Google Workspace that need HIPAA controls without “click-ops.”
+
+**How it works**
+1) Secure OIDC + Terraform with Domain-Wide Delegation  
+2) Apply baseline in *demo* → review plan → apply in *prod* (guarded by approvals)  
+3) Pull request artifacts and logs you can show to auditors
+
+**Contact**
+Email: info@fedlin.com
+
+> This is a showcase repo: no secrets or client configs. Production implementation lives in a private repository.
