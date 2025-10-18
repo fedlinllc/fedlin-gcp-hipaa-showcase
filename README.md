@@ -1,4 +1,6 @@
 # Google Workspace HIPAA Baseline — CI/CD Managed
+[![Request Info](https://img.shields.io/badge/Request%20Info-Open%20an%20Issue-blue)](https://github.com/fedlinllc/fedlin-gcp-hipaa-showcase/issues/new?template=request_info.md)
+
 
 > A CI/CD-managed HIPAA baseline for Google Workspace on GCP: Terraform + GitHub OIDC deliver audit-ready, versioned security controls (Drive org-only sharing, Gmail TLS/legacy-access hardening), with optional Enterprise DLP.
 > Designed for clinics and health teams to deploy change-controlled policies via PRs with fast rollback and clear evidence for auditors.
