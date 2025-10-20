@@ -1,27 +1,33 @@
-# Google Workspace HIPAA Baseline — CI/CD Managed
-[![Request Info](https://img.shields.io/badge/Request%20Info-Open%20an%20Issue-blue)](https://github.com/fedlinllc/fedlin-gcp-hipaa-showcase/issues/new?template=request_info.md)
+# FEDLIN — Google Workspace HIPAA Baseline (Showcase)
 
+# Google Workspace HIPAA Baseline + GCP (SCC Standard-ready)
 
-> A CI/CD-managed HIPAA baseline for Google Workspace on GCP: Terraform + GitHub OIDC deliver audit-ready, versioned security controls (Drive org-only sharing, Gmail TLS/legacy-access hardening), with optional Enterprise DLP.
-> Designed for clinics and health teams to deploy change-controlled policies via PRs with fast rollback and clear evidence for auditors.
+**Who it’s for:** Small healthcare orgs and Business Associates on Google Workspace (optionally with GCP projects).
 
 **What you get**
-- **Audit-ready change control**: All security policy changes flow through Pull Requests with approvals, logs, and artifacts.
-- **Stronger defaults (no license upgrades required for baseline):**
-  - Drive: org-only links for PHI areas; block public links by default
-  - Gmail: enforce TLS where supported; disable POP/IMAP/basic auth; block auto-forward from PHI OUs
-- **Fast rollback**: Versioned Terraform with short-lived OIDC credentials.
-- **Optional add-ons (Enterprise editions)**: Baseline DLP for Drive/Gmail (content inspection/quarantine), partner allow-lists, KPI reporting.
+- **Workspace Hardening:** 2SV enforcement, password policy, external sharing controls, app allowlisting, mobile management.
+- **Mail Auth:** SPF verification, DMARC policy deployment plan, DKIM key generation/start.
+- **Evidence Pack:** DNS/auth records, org policy snapshot, enabled APIs, IAM policy, audit summary and checksums.
+- **Optional GCP Add-On:** SCC Standard enablement **when org-scoped** (requires project under an Organization), Security Health Analytics baseline, findings export wiring.
 
-**Who it’s for**
-Solo & small practices, group practices, school-based therapy providers, and digital health teams on Google Workspace that need HIPAA controls without “click-ops.”
+## Delivery Tiers (example — customize before publishing)
+- **Baseline** — Workspace hardening + evidence pack.  
+  _Deliverables:_ policy settings review, remediation checklist, evidence tarball, self_audit.sh pass.
+- **Baseline + GCP** — Baseline + GCP hardening & SCC Standard-ready configuration.  
+  _Deliverables:_ API enablement, org-scope SCC prerequisites, export wiring, evidence.
+- **Ongoing** — Monthly review & evidence refresh (rotating checks, DMARC to reject, DKIM key rotation reminders).
 
-**How it works**
-1) Secure OIDC + Terraform with Domain-Wide Delegation  
-2) Apply baseline in *demo* → review plan → apply in *prod* (guarded by approvals)  
-3) Pull request artifacts and logs you can show to auditors
+> **Note:** SCC Standard is **organization-scoped**. If your project is not under an Organization, we document compensating controls and provide a move-under-org plan.
 
-**Contact**
-Email: info@fedlin.com
+## Engagement Requirements
+- Workspace Super Admin access (temporary).  
+- DNS management access for DMARC/DKIM changes (or coordination with provider).  
+- (Optional GCP) Org Admin/Security Center Admin to enable SCC at org scope.
 
-> This is a showcase repo: no secrets or client configs. Production implementation lives in a private repository.
+## Proof & Artifacts
+- Latest **evidence tarball** + **MANIFEST** with SHA-256 checksums.  
+- `self_audit.sh` output: **PASS** with any advisories (e.g., DMARC pending propagation).
+
+## Contact
+- FEDLIN — Security Architecture & Compliance Automation  
+- info@fedlin.com · fedlin.com
