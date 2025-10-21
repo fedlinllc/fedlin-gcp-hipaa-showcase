@@ -19,8 +19,8 @@ We configure Google Workspace to **support HIPAA**: BAA in place and documented,
 
 ## Outcomes
 - ✅ **BAA in place & documented**
-- ✅ **Email authentication hardened:** **DMARC** / **DKIM**
-- ✅ **Admin controls enforced:** 2-Step Verification, password policy, safer Drive sharing, API controls
+- ✅ **Email authentication hardened:**
+- ✅ **Admin controls enforced:** 2-Step Verification, secure sharing, API security
 
 _Public proof style:_ statements only — **no screenshots/how-tos/raw logs/IDs** in this showcase.  
 For deeper mapping, see **EVIDENCE_TABLE.md** (abstract) and **README_AUDIT_NOTES.md** (redacted notes).
