@@ -2,7 +2,7 @@
 
 [![Status](https://img.shields.io/badge/Status-Deployment--Ready-success)](#what-you-get)
 [![Audit](https://img.shields.io/badge/Audit-PASS%20(0%20advisories)-brightgreen)](#what-you-get)
-[![Release](https://img.shields.io/github/v/release/fedlinllc/fedlin-gcp-hipaa-showcase?display_name=tag)](https://github.com/fedlinllc/fedlin-gcp-hipaa-showcase/releases)
+[![Release](https://img.shields.io/github/v/release/fedlinllc/fedlin-gws-hipaa-baseline?display_name=tag)](https://github.com/fedlinllc/fedlin-gws-hipaa-baseline/releases)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey)](#license)
 [![Contact](https://img.shields.io/badge/Book-Call-0F766E)](https://www.fedlin.com/bookings)
 
@@ -74,7 +74,7 @@ For deeper mapping, see **EVIDENCE_TABLE.md** (abstract) and **README_AUDIT_NOTE
 ---
 
 ## Releases
-See **[Releases](https://github.com/fedlinllc/fedlin-gcp-hipaa-showcase/releases)** for public announcements and change notes.
+See **[Releases](https://github.com/fedlinllc/fedlin-gws-hipaa-baseline/releases)** for public announcements and change notes.
 
 ---
 
