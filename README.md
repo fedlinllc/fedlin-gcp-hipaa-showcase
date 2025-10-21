@@ -6,6 +6,8 @@
 [![License](https://img.shields.io/badge/License-MIT-lightgrey)](#license)
 [![Contact](https://img.shields.io/badge/Book-Call-0F766E)](https://www.fedlin.com/bookings)
 
+_HIPAA-aligned Google Workspace configuration with documented controls. Public brief — no raw evidence._
+
 We configure Google Workspace to **support HIPAA**: BAA in place and documented, core admin controls enforced, and a readiness summary you can share with stakeholders.  
 > **Optional Phase 2:** Google Cloud **Security Command Center (Standard)** posture & documentation (separate scope).
 
@@ -52,7 +54,7 @@ For deeper mapping, see **EVIDENCE_TABLE.md** (abstract) and **README_AUDIT_NOTE
 ## 👉 Book a call
 
 - **Schedule:** https://www.fedlin.com/bookings  
-- **Questions:** info@fedlin.com
+- **Questions:** [info@fedlin.com](mailto:info@fedlin.com)
 
 ---
 
@@ -81,7 +83,7 @@ See **[Releases](https://github.com/fedlinllc/fedlin-gws-hipaa-baseline/releases
 ## Contact
 
 - **Schedule:** https://www.fedlin.com/bookings  
-- **Questions:** info@fedlin.com
+- **Questions:** [info@fedlin.com](mailto:info@fedlin.com)
 
 ---
 
