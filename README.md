@@ -65,11 +65,6 @@ For deeper mapping, see **EVIDENCE_TABLE.md** (abstract) and **README_AUDIT_NOTE
 2. **Apply guardrails:** Workspace + initial GCP guardrails aligned to HIPAA expectations; SCC (Standard) noted as **org-scoped**.  
 3. **Handoff:** Executive readiness summary + operator checklist; add-ons/options reviewed as needed.
 
----
-
-## Prereqs & assumptions (for published “Starting at”)
-- ≤ **10 users**, **1 domain**, **single org**, no third-party mail routing changes.  
-- Super Admin access (temporary) or facilitated screenshare during change window.
 
 ---
 
