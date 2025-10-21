@@ -1,4 +1,4 @@
-# Google Workspace HIPAA Baseline (Showcase)
+# Google Workspace HIPAA Baseline
 
 [![Status](https://img.shields.io/badge/Status-Deployment--Ready-success)](#what-you-get)
 [![Audit](https://img.shields.io/badge/Audit-PASS%20(0%20advisories)-brightgreen)](#what-you-get)
