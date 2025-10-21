@@ -1,5 +1,13 @@
 # FEDLIN — Google Workspace HIPAA Baseline (Showcase)
 
+![Linux](https://img.shields.io/badge/Platform-Linux-informational)
+![Google Workspace](https://img.shields.io/badge/Target-Google%20Workspace-blue)
+![Evidence](https://img.shields.io/badge/Approach-Evidence--Driven-success)
+![HIPAA](https://img.shields.io/badge/Aligned-HIPAA-important)
+
+> **Value prop:** Evidence-driven hardening for Google Workspace HIPAA baselines, with optional GCP add-on and self-audit.
+> **Release asset:** [https://github.com/fedlinllc/fedlin-gcp-hipaa-showcase/releases/download/v0.1.0/public-showcase-v0.1.0.tar.gz](https://github.com/fedlinllc/fedlin-gcp-hipaa-showcase/releases/download/v0.1.0/public-showcase-v0.1.0.tar.gz)  ·  [https://github.com/fedlinllc/fedlin-gcp-hipaa-showcase/releases/tag/v0.1.0](https://github.com/fedlinllc/fedlin-gcp-hipaa-showcase/releases/tag/v0.1.0)
+
 # Google Workspace HIPAA Baseline + GCP (SCC Standard-ready)
 
 **Who it’s for:** Small healthcare orgs and Business Associates on Google Workspace (optionally with GCP projects).
