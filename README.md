@@ -1,13 +1,29 @@
-# HIPAA Readiness for Google Workspace + GCP (Showcase)
+# Google Workspace HIPAA Baseline (Showcase)
 
+[![Status](https://img.shields.io/badge/Status-Deployment--Ready-success)](#outcomes)
+[![Audit](https://img.shields.io/badge/Audit-PASS%20(0%20advisories)-brightgreen)](#outcomes)
 [![Release](https://img.shields.io/github/v/release/fedlinllc/fedlin-gcp-hipaa-showcase?display_name=tag)](https://github.com/fedlinllc/fedlin-gcp-hipaa-showcase/releases)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey)](#license)
 [![Contact](https://img.shields.io/badge/Book-Call-0F766E)](https://www.fedlin.com/bookings)
 
-**One-sentence promise (executive-lean 60/40):**  
-We deliver a **fixed-scope deployment** that brings your Google Workspace under HIPAA-aligned controls—**Security Command Center (SCC) Standard at organization scope** with guardrails across **Admin roles, Groups, Drive/Sharing, and external access defaults**—plus a **documented readiness summary**; **project-priced**, with **custom add-ons** scoped separately.
+We configure Google Workspace to **support HIPAA**: BAA in place and documented, core admin controls enforced, and a readiness summary you can share with stakeholders.  
+> **Optional Phase 2:** Google Cloud **Security Command Center (Standard)** posture & documentation (offered separately).
 
-> **Who it’s for:** Solo/small boutique practices and Business Associates running on **Google Workspace**, with optional initial **GCP** guardrails.
+## How it works
+
+1. **Intake & access** — We align on scope and get temporary admin (or run via guided screenshare). No PHI requested.
+2. **Apply guardrails** — We configure Google Workspace to support HIPAA: BAA documented, core controls enforced.
+3. **Handoff** — You get an executive summary and an operator checklist. Phase 2 (GCP SCC Standard) available separately.
+
+---
+
+## Outcomes
+- ✅ **BAA in place & documented**
+- ✅ **Email authentication hardened:** **DMARC** / **DKIM**
+- ✅ **Admin controls enforced:** 2-Step Verification, password policy, safer Drive sharing, API controls
+
+_Public proof style:_ statements only — **no screenshots/how-tos/raw logs/IDs** in this showcase.  
+For deeper mapping, see **EVIDENCE_TABLE.md** (abstract) and **README_AUDIT_NOTES.md** (redacted notes).
 
 ---
 
@@ -18,13 +34,29 @@ We deliver a **fixed-scope deployment** that brings your Google Workspace under 
 - **Readiness summary:** 1-page executive view + short operator checklist (customer-held).
 - **Next steps:** Guidance on add-ons and operational cadence (if desired).
 
-### Pricing (published)
-- **Baseline (Workspace + initial GCP guardrails)** — **Starting at $1,950** (one-time)  
-- **Add-on: Quarterly Readiness Check** — **$499/quarter** (exec recap + operator checklist; evidence logbook entries updated; **2h** included)  
-- **Ad-hoc support** — **$195/hr**
+---
 
-### Primary CTA
-👉 **Book a call:** https://www.fedlin.com/bookings
+## Prereqs
+
+- Google Workspace tenant with Super Admin available (temporary) or guided screenshare
+- Single or multi-domain welcome; we’ll scope appropriately
+- No special network changes required
+
+---
+
+## Pricing
+
+- **Baseline — Google Workspace hardening & readiness**: **Starting at $1,950** (one-time)
+- **Add-on: Quarterly Readiness Check**: **$499/quarter**  
+  *Executive recap + operator checklist; evidence logbook updates; **2h** included*
+- **Ad-hoc support**: **$195/hr**
+
+> Built for solo and small practices, and fully adaptable for medium and larger organizations.
+
+## 👉 Book a call
+
+- **Schedule:** https://www.fedlin.com/bookings  
+- **Questions:** info@fedlin.com
 
 ---
 
@@ -41,27 +73,21 @@ We deliver a **fixed-scope deployment** that brings your Google Workspace under 
 
 ---
 
-## What we publish (proof style)
-- **Statement of controls & readiness summary only.**  
-- **No screenshots, how-tos, raw logs, or IDs** in this public repo.  
-- Your **evidence stays in your tenant** (customer-held).
+## Proof style (public)
+
+- Statements of controls and readiness only
+- No screenshots, step-by-step how-tos, raw logs, or IDs in this repo
+- Your detailed evidence stays in your tenant
 
 ---
 
-## Exclusions (scope guardrails)
-- **No public screenshots / step-by-step “how-tos”.**  
-- **No IdP/SSO beyond Google Workspace** (e.g., Okta/AD) in this baseline.  
-- **No Microsoft 365** in this offer.
+## Compliance notes
 
----
+- **Not legal advice:** We deliver technical configuration and documentation.
+- **Shared responsibility:** HIPAA remains shared between your org and your vendors.
+- **BAAs:** You execute vendor BAAs (e.g., Google). FEDLIN signs a BAA when contracted as a Business Associate.
+- **GCP SCC (Standard):** Offered as an optional, separately scoped Phase 2.
 
-## Always-visible compliance notes
-1. **Org scope:** Google Cloud **Security Command Center (SCC) – Standard** is **organization-scoped**; configuration applies tenant-wide.  
-2. **Not legal advice:** This service provides technical controls and documentation; it is **not legal advice** or a certification.  
-3. **Shared responsibility:** HIPAA compliance remains a **shared responsibility** between your organization and its vendors.  
-4. **Access & PHI handling:** Temporary admin access is required; **no PHI is requested or handled** during onboarding or in public artifacts.  
-5. **Evidence location:** Evidence remains **in your tenant**; any public examples are **redacted**.  
-6. **BAAs:** **BAAs are between you and your vendors** (e.g., Google/others); Fedlin signs a BAA **only when contracted as a Business Associate**.
 
 ---
 
@@ -71,8 +97,9 @@ See **[Releases](https://github.com/fedlinllc/fedlin-gcp-hipaa-showcase/releases
 ---
 
 ## Contact
-- **Book a call:** https://www.fedlin.com/bookings  
-- **Email:** info@fedlin.com
+
+- **Schedule:** https://www.fedlin.com/bookings  
+- **Questions:** info@fedlin.com
 
 ---
 
