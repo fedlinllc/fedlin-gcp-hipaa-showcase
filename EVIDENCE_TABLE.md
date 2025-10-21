@@ -1,19 +1,23 @@
-# Evidence Table
+# Evidence Classes (Customer-Held)
 
-| Check | Status | Evidence | Notes |
-|---|---|---|---|
-| 2SV enforced | Pending screenshot | workspace_2sv_checklist.md | Capture Admin console per-OU |
-| Password policy | Pending screenshot | workspace_password_policy.md | Min length/complexity/reuse |
-| External sharing (Drive) | Pending screenshot | workspace_drive_sharing.md | Link sharing default/allowlist |
-| App allowlisting/OAuth | Pending screenshot | workspace_app_allowlisting.md | Trusted list & DWD scopes |
-| Mobile management | Pending screenshot | workspace_mobile_mgmt.md | Advanced policy & wipe actions |
-| SPF | **Present** | dns-auth.txt | Verified via dig |
-| DMARC | **Missing** | dns-auth.txt / dns-remediation.md | Publish  TXT, move to reject later |
-| DKIM | **Not published** | dns-auth.txt / dns-remediation.md | Generate selector, publish TXT, start auth |
-| SCC settings (proj) | 404 (expected) | scc-settings.json | Project not under Organization |
-| SCC findings | None | findings.json | Will populate after org-scope enablement |
-| Audit logs (24h) | Empty | audit-logs.txt | OK pre-enablement |
-| Org policies snapshot | Captured | org-policy-state.json | Project scope |
-| Enabled APIs | Captured | enabled-apis.txt | — |
-| Project IAM | Captured | project-iam.json | — |
-| Evidence tarball | Built | evidence_20251020_161010.tar.gz | 6842 bytes |
+> We publish **no screenshots, IDs, raw logs, or exports** in this repo.  
+> Evidence is **retained in your tenant** and shared directly with auditors upon request.
+
+| Evidence Class                              | Source (Customer Tenant)            | Retained By | Purpose (Auditor View)                              | Produced By        |
+|---                                          |---                                   |---          |---                                                 |---                 |
+| Admin activity log excerpts (scoped dates)  | Google Admin Console → Reports       | Customer    | Show change control and privileged actions          | System-generated   |
+| SCC (Standard) summary at org scope         | Google Cloud SCC (Standard)          | Customer    | Show org-scoped monitoring is enabled               | System-generated   |
+| Workspace config snapshot (high level)      | Admin Console (Roles, Groups, Sharing)| Customer   | Demonstrate guardrails are set (no PHI)             | Operator (guided)  |
+| Drive/Sharing defaults posture note         | Admin Console → Apps → Drive/Docs    | Customer    | Confirm external sharing posture                    | Operator (guided)  |
+| Group-based access review note              | Admin Console → Groups               | Customer    | Confirm least-privilege access patterns             | Operator (guided)  |
+| Readiness summary (executive 1-pager)       | Customer Docs/Drive                  | Customer    | Summarize outcome & responsibilities                | Operator (Fedlin)  |
+| Operator checklist (handoff)                | Customer Docs/Drive                  | Customer    | Day-2 actions & recurring checks                    | Operator (Fedlin)  |
+| Quarterly recap (if add-on purchased)       | Customer Docs/Drive                  | Customer    | Drift/SCC delta review & incident-readiness notes   | Operator (Fedlin)  |
+
+**Scope & Redaction Rules**
+
+- No PHI is requested, handled, or stored by Fedlin in public artifacts.  
+- No tenant identifiers (org names, domains, user emails) appear in public artifacts.  
+- No exports, policy IDs, screenshots, or command logs are published publicly.  
+- Originals live in your tenant; Fedlin references them only during service delivery.
+

@@ -1,0 +1,6 @@
+evidence/
+*.json
+*.log
+*.csv
+*.png
+*.jpg

@@ -1,41 +1,80 @@
-# FEDLIN — Google Workspace HIPAA Baseline (Showcase)
+# HIPAA Readiness for Google Workspace + GCP (Showcase)
 
-![Linux](https://img.shields.io/badge/Platform-Linux-informational)
-![Google Workspace](https://img.shields.io/badge/Target-Google%20Workspace-blue)
-![Evidence](https://img.shields.io/badge/Approach-Evidence--Driven-success)
-![HIPAA](https://img.shields.io/badge/Aligned-HIPAA-important)
+[![Release](https://img.shields.io/github/v/release/fedlinllc/fedlin-gcp-hipaa-showcase?display_name=tag)](https://github.com/fedlinllc/fedlin-gcp-hipaa-showcase/releases)
+[![License](https://img.shields.io/badge/License-MIT-lightgrey)](#license)
+[![Contact](https://img.shields.io/badge/Book-Call-0F766E)](https://www.fedlin.com/bookings)
 
-> **Value prop:** Evidence-driven hardening for Google Workspace HIPAA baselines, with optional GCP add-on and self-audit.
-> **Release asset:** [https://github.com/fedlinllc/fedlin-gcp-hipaa-showcase/releases/download/v0.1.0/public-showcase-v0.1.0.tar.gz](https://github.com/fedlinllc/fedlin-gcp-hipaa-showcase/releases/download/v0.1.0/public-showcase-v0.1.0.tar.gz)  ·  [https://github.com/fedlinllc/fedlin-gcp-hipaa-showcase/releases/tag/v0.1.0](https://github.com/fedlinllc/fedlin-gcp-hipaa-showcase/releases/tag/v0.1.0)
+**One-sentence promise (executive-lean 60/40):**  
+We deliver a **fixed-scope deployment** that brings your Google Workspace under HIPAA-aligned controls—**Security Command Center (SCC) Standard at organization scope** with guardrails across **Admin roles, Groups, Drive/Sharing, and external access defaults**—plus a **documented readiness summary**; **project-priced**, with **custom add-ons** scoped separately.
 
-# Google Workspace HIPAA Baseline + GCP (SCC Standard-ready)
+> **Who it’s for:** Solo/small boutique practices and Business Associates running on **Google Workspace**, with optional initial **GCP** guardrails.
 
-**Who it’s for:** Small healthcare orgs and Business Associates on Google Workspace (optionally with GCP projects).
+---
 
-**What you get**
-- **Workspace Hardening:** 2SV enforcement, password policy, external sharing controls, app allowlisting, mobile management.
-- **Mail Auth:** SPF verification, DMARC policy deployment plan, DKIM key generation/start.
-- **Evidence Pack:** DNS/auth records, org policy snapshot, enabled APIs, IAM policy, audit summary and checksums.
-- **Optional GCP Add-On:** SCC Standard enablement **when org-scoped** (requires project under an Organization), Security Health Analytics baseline, findings export wiring.
+## What you get (Baseline)
+- **Org-wide posture:** **SCC (Standard) at organization scope** documented; shared-responsibility explained.
+- **Workspace guardrails:** Admin roles hygiene, group-based access, Drive/Sharing defaults, external access posture.
+- **Initial GCP guardrails:** High-level org policy and project guardrails aligned to HIPAA expectations (no screenshots/how-tos published).
+- **Readiness summary:** 1-page executive view + short operator checklist (customer-held).
+- **Next steps:** Guidance on add-ons and operational cadence (if desired).
 
-## Delivery Tiers (example — customize before publishing)
-- **Baseline** — Workspace hardening + evidence pack.  
-  _Deliverables:_ policy settings review, remediation checklist, evidence tarball, self_audit.sh pass.
-- **Baseline + GCP** — Baseline + GCP hardening & SCC Standard-ready configuration.  
-  _Deliverables:_ API enablement, org-scope SCC prerequisites, export wiring, evidence.
-- **Ongoing** — Monthly review & evidence refresh (rotating checks, DMARC to reject, DKIM key rotation reminders).
+### Pricing (published)
+- **Baseline (Workspace + initial GCP guardrails)** — **Starting at $1,950** (one-time)  
+- **Add-on: Quarterly Readiness Check** — **$499/quarter** (exec recap + operator checklist; evidence logbook entries updated; **2h** included)  
+- **Ad-hoc support** — **$195/hr**
 
-> **Note:** SCC Standard is **organization-scoped**. If your project is not under an Organization, we document compensating controls and provide a move-under-org plan.
+### Primary CTA
+👉 **Book a call:** https://www.fedlin.com/bookings
 
-## Engagement Requirements
-- Workspace Super Admin access (temporary).  
-- DNS management access for DMARC/DKIM changes (or coordination with provider).  
-- (Optional GCP) Org Admin/Security Center Admin to enable SCC at org scope.
+---
 
-## Proof & Artifacts
-- Latest **evidence tarball** + **MANIFEST** with SHA-256 checksums.  
-- `self_audit.sh` output: **PASS** with any advisories (e.g., DMARC pending propagation).
+## How it works (at a glance)
+1. **Intake & access:** You grant temporary admin (or screenshare); no PHI requested.  
+2. **Apply guardrails:** Workspace + initial GCP guardrails aligned to HIPAA expectations; SCC (Standard) noted as **org-scoped**.  
+3. **Handoff:** Executive readiness summary + operator checklist; add-ons/options reviewed as needed.
+
+---
+
+## Prereqs & assumptions (for published “Starting at”)
+- ≤ **10 users**, **1 domain**, **single org**, no third-party mail routing changes.  
+- Super Admin access (temporary) or facilitated screenshare during change window.
+
+---
+
+## What we publish (proof style)
+- **Statement of controls & readiness summary only.**  
+- **No screenshots, how-tos, raw logs, or IDs** in this public repo.  
+- Your **evidence stays in your tenant** (customer-held).
+
+---
+
+## Exclusions (scope guardrails)
+- **No public screenshots / step-by-step “how-tos”.**  
+- **No IdP/SSO beyond Google Workspace** (e.g., Okta/AD) in this baseline.  
+- **No Microsoft 365** in this offer.
+
+---
+
+## Always-visible compliance notes
+1. **Org scope:** Google Cloud **Security Command Center (SCC) – Standard** is **organization-scoped**; configuration applies tenant-wide.  
+2. **Not legal advice:** This service provides technical controls and documentation; it is **not legal advice** or a certification.  
+3. **Shared responsibility:** HIPAA compliance remains a **shared responsibility** between your organization and its vendors.  
+4. **Access & PHI handling:** Temporary admin access is required; **no PHI is requested or handled** during onboarding or in public artifacts.  
+5. **Evidence location:** Evidence remains **in your tenant**; any public examples are **redacted**.  
+6. **BAAs:** **BAAs are between you and your vendors** (e.g., Google/others); Fedlin signs a BAA **only when contracted as a Business Associate**.
+
+---
+
+## Releases
+See **[Releases](https://github.com/fedlinllc/fedlin-gcp-hipaa-showcase/releases)** for public announcements and change notes (e.g., **v0.1.0**).
+
+---
 
 ## Contact
-- FEDLIN — Security Architecture & Compliance Automation  
-- info@fedlin.com · fedlin.com
+- **Book a call:** https://www.fedlin.com/bookings  
+- **Email:** info@fedlin.com
+
+---
+
+## License
+MIT — see `LICENSE`.
