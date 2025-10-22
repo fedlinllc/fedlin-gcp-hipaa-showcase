@@ -27,6 +27,14 @@ We configure Google Workspace to **support HIPAA**: BAA in place and documented,
 - ✅ **Workspace controls enforced**
 - ✅ **Readiness summary delivered**
 
+**Access & Admin Controls:** We harden sign-in and administrator access to HIPAA-appropriate standards (strong verification, least-privilege), without publishing step-by-step guides.
+
+**Data Protection & Sharing:** We set protective Workspace defaults for Gmail and Drive to reduce accidental exposure and align external sharing with HIPAA expectations.
+
+**Retention & eDiscovery (add-on):** When requested, we prepare Workspace for HIPAA-appropriate retention and basic eDiscovery readiness using Google Vault features available in your plan.
+
+**Delivery & Scope:** Work is typically completed within **3 business days after access** for a single Google Workspace tenant (most baselines fit **≤100 users**; larger environments are scoped separately).
+
 _Public proof style:_ statements only — **no screenshots/how-tos/raw logs/IDs** in this showcase.  
 For deeper mapping, see **EVIDENCE_TABLE.md** (abstract) and **README_AUDIT_NOTES.md** (redacted notes).
 
@@ -40,14 +48,40 @@ For deeper mapping, see **EVIDENCE_TABLE.md** (abstract) and **README_AUDIT_NOTE
 
 ---
 
+## Scope & Assumptions
+
+- Single Google Workspace tenant; most baselines fit **≤100 users** (larger environments are scoped separately).
+- We configure controls to **support HIPAA**; this is not a full HIPAA risk analysis or compliance program.
+- Only features available in your current Workspace SKUs are configured (e.g., Vault, DLP, context-aware access if licensed).
+- Evidence remains in your tenant; the public repo is a conservative brief without screenshots or raw logs.
+
+**Change Order:** If discovery reveals additional tenants, complex multi-domain routing, unlicensed features required, or access delays that materially extend effort, we’ll document blockers and provide a revised estimate before proceeding.
+
+- **Licensing note:** Some controls (e.g., Google Vault retention/eDiscovery, advanced DLP, context-aware access) require specific Workspace SKUs. We configure what your current licenses support and flag gaps.
+
+---
+
+## What’s not included
+
+- A full HIPAA risk analysis, policy/training program, or legal advice
+- Multi-tenant or multi-brand rollouts (scoped separately)
+- Third-party app risk reviews beyond obvious high-risk items
+- Detailed how-to guides, screenshots, or raw logs (evidence stays in your tenant)
+
+---
+
 ## Pricing
 
 - **Baseline — Google Workspace hardening & readiness**: **Starting at $1,950** (one-time)  
 - **Add-on: Quarterly Readiness Check**: **$499/quarter**  
-  *Executive recap + operator checklist; evidence logbook updates; **2h** included*  
+  *Executive recap + operator checklist; evidence logbook updates; **2h** included*
+ - **Add-on: Monthly Lite Monitoring**: **$200/month**
+  *Config drift watch and a brief monthly summary; upgrade or cancel anytime.*
 - **Ad-hoc support**: **$195/hr**
+- **Add-on: Vault / eDiscovery readiness**: **$600 one-time**
+  *Scoped enablement and configuration review of Google Vault features available in your plan; brief operator checklist included.*
 
-> Built for solo and small practices, and fully adaptable for medium and larger organizations.
+> **Solo & Small-Practice Friendly:** Fixed-fee, no per-user billing (up to **≤100 users** in the baseline). We can work via a short guided screenshare and never request PHI.
 
 ---
 
@@ -72,6 +106,14 @@ For deeper mapping, see **EVIDENCE_TABLE.md** (abstract) and **README_AUDIT_NOTE
 - **Shared responsibility:** HIPAA remains shared between your org and your vendors.  
 - **BAAs:** You execute vendor BAAs (e.g., Google). **Fedlin** signs a BAA when contracted as a Business Associate.  
 - **GCP SCC (Standard):** Offered as an optional, separately scoped Phase 2.
+
+---
+
+## FAQ
+
+**Do you need PHI?** No. We never request or handle PHI for this baseline.
+**Is there per-user billing?** No. Fixed fee (baseline typically covers ≤100 users); larger orgs are scoped separately.
+**Do you sign a BAA?** Yes. You execute Google’s BAA; **Fedlin** signs a BAA when engaged as a Business Associate.
 
 ---
 
