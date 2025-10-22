@@ -3,7 +3,7 @@
 **Supported project:** This is a public brief (no code that processes PHI).  
 If you believe you've found a security issue in this repository or related deployment assets:
 
-- Email: security@fedlin.com (or info@fedlin.com if unavailable)
+- Email: info@fedlin.com
 - Please do **not** open public issues for sensitive reports.
 - We acknowledge receipt within 2 business days.
 
