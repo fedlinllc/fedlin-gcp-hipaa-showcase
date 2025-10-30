@@ -12,7 +12,7 @@ This is the **public brief** for Fedlin’s private deployment repo **`fedlin-gw
 - Can be delivered alongside M365 / AWS baselines for multi-cloud practices
 
 ## Who it’s for
-- Healthcare / therapy / counseling practices in TN/KY and across the U.S.
+- Healthcare / therapy / counseling practices across the U.S.
 - Small businesses handling PHI/PII in Google Workspace
 - MSPs that need a repeatable, documented HIPAA-style Workspace setup
 
