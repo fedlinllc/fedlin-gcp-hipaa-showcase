@@ -46,9 +46,7 @@ A customer-tenant-first hardening and configuration baseline for Google Workspac
 
 ## Deployment assets
 
-Deployment assets (per-tenant settings, workflow files, redacted admin scripts) are kept in the **private** repository:
-
-👉 **`fedlin-gws-hipaa-baseline-deployment`**
+Deployment assets (per-tenant settings, workflow files, redacted admin scripts) are kept in a **private FEDLIN deployment repository** and are provided only as part of an engagement.
 
 This public repo tracks the service description, not the customer code.
 
